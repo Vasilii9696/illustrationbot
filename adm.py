@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)  # Настройка логирован
 pagination_cb = CallbackData('pagination', 'category', 'page', 'action')  # Создание объекта для управления коллбеками пагинации
 
 # Инициализация бота и диспетчера
-bot_token = '7328558953:AAFqzdWeRtw5YPd1IvGw8PM5YWnyPY05FwA'  # Токен бота
+bot_token = ''  # Токен бота
 bot = Bot(token=bot_token, parse_mode="HTML")  # Создание объекта бота с токеном и парсингом HTML
 dp = Dispatcher(bot, storage=MemoryStorage())  # Создание диспетчера с использованием бота и хранения в памяти
 
